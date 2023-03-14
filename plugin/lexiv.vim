@@ -1,3 +1,5 @@
+if exists('g:lexiv_no_default_key_mappings') | finish | endif
+
 inoremap <expr> " lexiv#quote_open('"')
 inoremap <expr> ' lexiv#quote_open("'")
 inoremap <expr> ` lexiv#backquote_open()
